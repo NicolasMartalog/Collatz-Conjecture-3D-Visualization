@@ -189,7 +189,7 @@ void gui() {
   hint(ENABLE_DEPTH_TEST);
 } 
 
-// Collatz Algorithem
+// Collatz Algorithm
 int collatz(int n) {
   if (n % 2 == 0)
   {
@@ -200,7 +200,7 @@ int collatz(int n) {
   }
 }   
 
-// Implementing the Collatz Algorithem for a specific number
+// Implementing the Collatz Algorithm for a specific number
 IntList collatzBranch(int n){
   IntList l = new IntList();
   if (n < 2) {
